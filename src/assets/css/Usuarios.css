@@ -1,0 +1,98 @@
+@charset "ISO-8859-1";
+
+ul {
+    list-style-type: none;
+    margin: 18;
+    padding: 15;
+    overflow: hidden;
+    background-color: #FA8072;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px 15px 15px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #333;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+.one-half,
+.one-third {
+    position: relative;
+    margin-right: 4%;
+    float: left;
+        margin-bottom: 20px;
+ 
+}
+ 
+.one-half { width: 48%; }
+.one-third { width: 30.66%; }
+ 
+.last {
+    margin-right: 0 !important;
+    clear: right;
+}
+ 
+@media only screen and (max-width: 767px) {
+    .one-half, .one-third {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.forms input {
+  width: 80%;
+  height: 30px;
+  margin: 0.5rem;
+}
+
+
+
+.imagen-fondo {
+    background-image: "images/portada.jpg";
+}
+.cabecera {
+  color: #fff;
+  height: 400px;
+  line-height: 200px;
+  text-align: center;
+  vertical-align: middle;
+  text-shadow: #111 0px 0px 10px;
+}
+.color-fondo {
+	background-color: powderblue;
+  
+}
+.content {
+	width:80%;
+	height:400px;
+	line-height:400px;
+	margin:0px auto;
+	text-align:center;
+	background-color:#CCCCCC;
+}
+ 
+.content img {
+	vertical-align:middle; width:100%;
+}
